@@ -1,0 +1,56 @@
+/* RemoveEmployee.css */
+
+/* Set font family and margin for the whole body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Styling for the background container */
+.background {
+    background-image: url('img1.jpg');  /* Background image */
+    background-size: cover;  /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Display as flex container */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Align text center */
+}
+
+/* Styling for the heading */
+h1 {
+    color: #ebe3e0; /* Text color */
+    margin-bottom: 20px; /* Bottom margin */
+    font-size: 26px; /* Font size */
+}
+
+/* Styling for the form */
+form {
+    margin-top: 20px; /* Top margin */
+}
+
+/* Styling for buttons */
+input[type="submit"] {
+    width: 150px; /* Button width */
+    height: 40px; /* Button height */
+    margin: 10px 0; /* Button margin */
+    font-size: 16px; /* Font size */
+    color: white; /* Text color */
+    background-color: #4d1933; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Border radius */
+    cursor: pointer; /* Cursor pointer */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Button hover effect */
+input[type="submit"]:hover {
+    background-color: #c6538c; /* Change background color on hover */
+}
+
+/* Button active effect */
+input[type="submit"]:active {
+    background-color: #c6538c; /* Change background color on click */
+}

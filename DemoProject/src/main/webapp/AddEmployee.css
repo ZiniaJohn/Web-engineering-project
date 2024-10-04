@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.background {
+    background-image: url('img1.jpg');  
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+
+h1 {
+    color: #ebe3e0; 
+    margin-bottom: 20px;
+    font-size: 26px; 
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: white;
+    background-color: #4d1933;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #c6538c;
+}
+
+input[type="submit"]:active {
+    background-color: #c6538c;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+button {
+    width: 150px; 
+    height: 40px; 
+    margin: 10px 0;
+    font-size: 16px;
+    color: white; 
+    background-color: #4d1933; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #c6538c; 
+}
+
+button:active {
+    background-color: #c6538c; 
+}
